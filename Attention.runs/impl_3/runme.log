@@ -1,0 +1,291 @@
+
+*** Running vivado
+    with args -log Attention_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Attention_top.tcl -notrace
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Attention_top.tcl -notrace
+Command: link_design -top Attention_top -part xczu9eg-ffvb1156-2-e
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 3738 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 9 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1698.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2242 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD_DATA, DSP_PREADD): 704 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 1538 instances
+
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1698.828 ; gain = 1437.277
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 1698.828 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1960f9477
+
+Time (s): cpu = 00:00:40 ; elapsed = 00:00:26 . Memory (MB): peak = 2124.574 ; gain = 425.746
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 5120 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 132bf79ec
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2214.887 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 1 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 19c03a3b8
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 2214.887 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 13acf905e
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 2214.887 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 13acf905e
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 2214.887 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: 1653bdbe4
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 2214.887 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1653bdbe4
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 2214.887 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               1  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.065 . Memory (MB): peak = 2214.887 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1653bdbe4
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 2214.887 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 1653bdbe4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 2214.887 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1653bdbe4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2214.887 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2214.887 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1653bdbe4
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2214.887 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+22 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:01:14 ; elapsed = 00:00:58 . Memory (MB): peak = 2214.887 ; gain = 516.059
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2214.887 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/2025_vit_based_FPGA/source_code/Attention/Attention.runs/impl_3/Attention_top_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2214.887 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file Attention_top_drc_opted.rpt -pb Attention_top_drc_opted.pb -rpx Attention_top_drc_opted.rpx
+Command: report_drc -file Attention_top_drc_opted.rpt -pb Attention_top_drc_opted.pb -rpx Attention_top_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.3/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file E:/2025_vit_based_FPGA/source_code/Attention/Attention.runs/impl_3/Attention_top_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 2214.887 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2214.887 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 89e7f708
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 2214.887 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2214.887 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-415] IO Placement failed due to overutilization. This design contains 2050 I/O ports
+ while the target  device: xczu9eg package: ffvb1156, contains only 707 available user I/O. The target device has 707 usable I/O pins of which 0 are already occupied by user-locked I/Os.
+ To rectify this issue:
+ 1. Ensure you are targeting the correct device and package.  Select a larger device or different package if necessary.
+ 2. Check the top-level ports of the design to ensure the correct number of ports are specified.
+ 3. Consider design changes to reduce the number of I/Os necessary.
+ERROR: [Place 30-68] Instance K_IBUF[0]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[0]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[100]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[100]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[101]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[101]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[102]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[102]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[103]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[103]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[104]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[104]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[105]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[105]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[106]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[106]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[107]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[107]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[108]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[108]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[109]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[109]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[10]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[10]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[110]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[110]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[111]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[111]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[112]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[112]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[113]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[113]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[114]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[114]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[115]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[115]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[116]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[116]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[117]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[117]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[118]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[118]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[119]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[119]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[11]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[11]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[120]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[120]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[121]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[121]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[122]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[122]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[123]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[123]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[124]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[124]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[125]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[125]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[126]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[126]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[127]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[127]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[128]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[128]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[129]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[129]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[12]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[12]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[130]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[130]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[131]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[131]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[132]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[132]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[133]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[133]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[134]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[134]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[135]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[135]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[136]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[136]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[137]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[137]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[138]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[138]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[139]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[139]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[13]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[13]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[140]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[140]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[141]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[141]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[142]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[142]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[143]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[143]_inst/INBUF_INST (INBUF) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[144]_inst/IBUFCTRL_INST (IBUFCTRL) is not placed
+ERROR: [Place 30-68] Instance K_IBUF[144]_inst/INBUF_INST (INBUF) is not placed
+INFO: [Common 17-14] Message 'Place 30-68' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: fccc9112
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2214.887 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: fccc9112
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2214.887 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: fccc9112
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2214.887 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+39 Infos, 1 Warnings, 0 Critical Warnings and 103 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Tue Apr  1 17:03:29 2025...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Apr  1 17:01:29 2025
+# Process ID: 3156
+# Current directory: E:/2025_vit_based_FPGA/source_code/Attention/Attention.runs/impl_3
+# Command line: vivado.exe -log Attention_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Attention_top.tcl -notrace
+# Log file: E:/2025_vit_based_FPGA/source_code/Attention/Attention.runs/impl_3/Attention_top.vdi
+# Journal file: E:/2025_vit_based_FPGA/source_code/Attention/Attention.runs/impl_3\vivado.jou
+#-----------------------------------------------------------
+source Attention_top.tcl -notrace

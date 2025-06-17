@@ -1,0 +1,19 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sim_1/new/top_tb.v,1743005477,verilog,,,,top_tb,,,,,,,,
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/AdderTree.v,1743064326,verilog,,E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Attention_top.v,,AdderTree,,,,,,,,
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Attention_top.v,1736162903,verilog,,E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/AttnSoftmax.v,,Attention_top,,,,,,,,
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/AttnSoftmax.v,1736162903,verilog,,E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Dff.v,,AttnSoftmax,,,,,,,,
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Dff.v,1736162903,verilog,,E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/FPMac.v,,Dff,,,,,,,,
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/FPMac.v,1736162903,verilog,,E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/FPMatMul.v,,FPMac,,,,,,,,
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/FPMatMul.v,1736162903,verilog,,E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/MatSoftmax.v,,FPMatMul,,,,,,,,
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/MatSoftmax.v,1736162903,verilog,,E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Min.v,,MatSoftmax,,,,,,,,
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Min.v,1743005113,verilog,,E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/QKMatMul.v,,Min,,,,,,,,
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/QKMatMul.v,1736162903,verilog,,E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Quantization.v,,QKMatMul,,,,,,,,
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Quantization.v,1736162903,verilog,,E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/SVMatMul.v,,Quantization,,,,,,,,
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/SVMatMul.v,1736162903,verilog,,E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Softmax.v,,SVMatMul,,,,,,,,
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Softmax.v,1736162903,verilog,,E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Transpose.v,,Softmax,,,,,,,,
+E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Transpose.v,1736162903,verilog,,E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sim_1/new/top_tb.v,,Transpose,,,,,,,,

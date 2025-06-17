@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/AdderTree.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AdderTree
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Attention_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Attention_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/AttnSoftmax.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AttnSoftmax
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Dff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dff
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/FPMac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FPMac
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/FPMatMul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FPMatMul
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/MatSoftmax.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MatSoftmax
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Min.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Min
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/QKMatMul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module QKMatMul
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Quantization.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Quantization
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/SVMatMul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SVMatMul
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Softmax.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Softmax
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sources_1/new/Transpose.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Transpose
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/2025_vit_based_FPGA/source_code/Attention/Attention.srcs/sim_1/new/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb

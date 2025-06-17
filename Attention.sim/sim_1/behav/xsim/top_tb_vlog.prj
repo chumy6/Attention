@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Attention.srcs/sources_1/new/AdderTree.v" \
+"../../../../Attention.srcs/sources_1/new/Attention_top.v" \
+"../../../../Attention.srcs/sources_1/new/AttnSoftmax.v" \
+"../../../../Attention.srcs/sources_1/new/Dff.v" \
+"../../../../Attention.srcs/sources_1/new/FPMac.v" \
+"../../../../Attention.srcs/sources_1/new/FPMatMul.v" \
+"../../../../Attention.srcs/sources_1/new/MatSoftmax.v" \
+"../../../../Attention.srcs/sources_1/new/Min.v" \
+"../../../../Attention.srcs/sources_1/new/QKMatMul.v" \
+"../../../../Attention.srcs/sources_1/new/Quantization.v" \
+"../../../../Attention.srcs/sources_1/new/SVMatMul.v" \
+"../../../../Attention.srcs/sources_1/new/Softmax.v" \
+"../../../../Attention.srcs/sources_1/new/Transpose.v" \
+"../../../../Attention.srcs/sim_1/new/top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

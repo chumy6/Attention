@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="50000001fs"></ZoomEndTime>
+      <Cursor1Time time="50000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="429"></NameColumnWidth>
+      <ValueColumnWidth column_width="148"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wvobject fp_name="/top_tb/Q" type="array">
+      <obj_property name="ElementShortName">Q[0:31][15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[0:31][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/K" type="array">
+      <obj_property name="ElementShortName">K[0:31][15:0]</obj_property>
+      <obj_property name="ObjectShortName">K[0:31][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/V" type="array">
+      <obj_property name="ElementShortName">V[0:31][15:0]</obj_property>
+      <obj_property name="ObjectShortName">V[0:31][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/Q_in" type="array">
+      <obj_property name="ElementShortName">Q_in[511:0]</obj_property>
+      <obj_property name="ObjectShortName">Q_in[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/K_in" type="array">
+      <obj_property name="ElementShortName">K_in[511:0]</obj_property>
+      <obj_property name="ObjectShortName">K_in[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/V_in" type="array">
+      <obj_property name="ElementShortName">V_in[511:0]</obj_property>
+      <obj_property name="ObjectShortName">V_in[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/out" type="array">
+      <obj_property name="ElementShortName">out[511:0]</obj_property>
+      <obj_property name="ObjectShortName">out[511:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/out_mat" type="array">
+      <obj_property name="ElementShortName">out_mat[0:7][0:3][16:0]</obj_property>
+      <obj_property name="ObjectShortName">out_mat[0:7][0:3][16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/tmp" type="other">
+      <obj_property name="ElementShortName">tmp</obj_property>
+      <obj_property name="ObjectShortName">tmp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/A_tele" type="array">
+      <obj_property name="ElementShortName">A_tele[0:7][0:7][16:0]</obj_property>
+      <obj_property name="ObjectShortName">A_tele[0:7][0:7][16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/S_tele" type="array">
+      <obj_property name="ElementShortName">S_tele[0:7][0:7][16:0]</obj_property>
+      <obj_property name="ObjectShortName">S_tele[0:7][0:7][16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/index" type="array">
+      <obj_property name="ElementShortName">index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">index[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/jndex" type="array">
+      <obj_property name="ElementShortName">jndex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">jndex[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/test_times" type="array">
+      <obj_property name="ElementShortName">test_times[31:0]</obj_property>
+      <obj_property name="ObjectShortName">test_times[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/test_index" type="array">
+      <obj_property name="ElementShortName">test_index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">test_index[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/fd_K" type="array">
+      <obj_property name="ElementShortName">fd_K[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fd_K[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/fd_Q" type="array">
+      <obj_property name="ElementShortName">fd_Q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fd_Q[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/fd_V" type="array">
+      <obj_property name="ElementShortName">fd_V[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fd_V[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/fd_b" type="array">
+      <obj_property name="ElementShortName">fd_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fd_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/fd_f" type="array">
+      <obj_property name="ElementShortName">fd_f[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fd_f[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/err_K" type="array">
+      <obj_property name="ElementShortName">err_K[31:0]</obj_property>
+      <obj_property name="ObjectShortName">err_K[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/err_Q" type="array">
+      <obj_property name="ElementShortName">err_Q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">err_Q[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/err_V" type="array">
+      <obj_property name="ElementShortName">err_V[31:0]</obj_property>
+      <obj_property name="ObjectShortName">err_V[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/err_b" type="array">
+      <obj_property name="ElementShortName">err_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">err_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/err_f" type="array">
+      <obj_property name="ElementShortName">err_f[31:0]</obj_property>
+      <obj_property name="ObjectShortName">err_f[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/code_K" type="array">
+      <obj_property name="ElementShortName">code_K[31:0]</obj_property>
+      <obj_property name="ObjectShortName">code_K[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/code_Q" type="array">
+      <obj_property name="ElementShortName">code_Q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">code_Q[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/code_V" type="array">
+      <obj_property name="ElementShortName">code_V[31:0]</obj_property>
+      <obj_property name="ObjectShortName">code_V[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/code_b" type="array">
+      <obj_property name="ElementShortName">code_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">code_b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/code_f" type="array">
+      <obj_property name="ElementShortName">code_f[31:0]</obj_property>
+      <obj_property name="ObjectShortName">code_f[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/str_K" type="array">
+      <obj_property name="ElementShortName">str_K[639:0]</obj_property>
+      <obj_property name="ObjectShortName">str_K[639:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/str_Q" type="array">
+      <obj_property name="ElementShortName">str_Q[639:0]</obj_property>
+      <obj_property name="ObjectShortName">str_Q[639:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/str_V" type="array">
+      <obj_property name="ElementShortName">str_V[639:0]</obj_property>
+      <obj_property name="ObjectShortName">str_V[639:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/str_b" type="array">
+      <obj_property name="ElementShortName">str_b[639:0]</obj_property>
+      <obj_property name="ObjectShortName">str_b[639:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/str_f" type="array">
+      <obj_property name="ElementShortName">str_f[639:0]</obj_property>
+      <obj_property name="ObjectShortName">str_f[639:0]</obj_property>
+   </wvobject>
+</wave_config>
