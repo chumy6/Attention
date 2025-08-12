@@ -1,14 +1,16 @@
 # 基于 Verilog 的 Attention 实现
 
+工具：vivado 2018.3
+
 ## 功能描述
 
-设计一个模块进行 Self-Attention 计算，输入 Q、K、V 矩阵，得到输出结果，并进行量化。模块参数设为：Token 数量为 8，Token 特征维度为 4，数据采用 Fix_8_8 即 8 位整数、8 位小数的定点无符号数格式存储和量化。用 python 设计 golden model 用以验证，并用 verilog 完成硬件实现。
+设计一个模块进行 Self-Attention 计算，输入 Q、K、V 矩阵，得到输出结果，并进行量化。模块参数设为：Token 数量为 8，Token 特征维度为 4，数据采用 Fix_8_8 即 8 位整数、8 位小数的定点无符号数格式存储和量化。用 python 设计 golden model 用以验证，用 verilog 完成硬件实现。
 
 ## 设计细节
 
 ### Softmax
 
-硬件实现中简化为softmax(A[i,j]) = (A[i,j]-minA[:,j])^2。
+硬件实现中简化为 $softmax(A[i,j]) = (A[i,j]-minA[:,j])^2$。
 
 ### 量化
 
